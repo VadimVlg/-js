@@ -16,3 +16,13 @@ const dnaToRna = (str) => {
     return result;
   };
   export default dnaToRna;
+
+  const sumDigits = (num) => {
+    const str = String(num);
+    let result = 0;
+    for(let i = 0; i < length(str); i += 1){
+      result += Number(str[i]);
+      }
+    return result;
+    };
+  
