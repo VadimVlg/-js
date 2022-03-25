@@ -11,4 +11,3 @@ const ackermann = (m, n) => {
     return 1;
 };
 export default ackermann;
-const a = 13
